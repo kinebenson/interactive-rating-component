@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: black;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 25%;
+  height: 450px;
+  background-color: rgb(22, 22, 31);
+  margin-top: 300px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+}
+.logo_box {
+  width: 80%;
+  height: 100px;
+  /* background-color: red; */
+  padding: 10px 0;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  width: 80%;
+  height: 80px;
+  /* background-color: red; */
+  padding: 20px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.child button {
+  width: 230px;
+  height: 40px;
+  background-color: rgb(42, 42, 59);
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  /* padding-left: 10px; */
+}
+.child p {
+  font-size: 15px;
+  font-weight: 500;
+  color: orange;
+}
+.child a {
+  text-decoration: none;
+}
+
+.text_child {
+  width: 80%;
+  height: 60px;
+  /* background-color: red; */
+  text-align: center;
+}
+.text_child h1 {
+  font-size: 40px;
+  color: rgb(192, 181, 181);
+}
+.nth_child {
+  width: 80%;
+  height: 80px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 10px; */
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.nth_child p {
+  color: rgb(192, 181, 181);
+  font-size: 19px;
+}
+
+
